@@ -1,0 +1,20 @@
+# === Visual Studio & Cache ===
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# === Compilación y Binarios (Obligatorio en C#) ===
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
+
+# === Archivos temporales del sistema ===
+.DS_Store
+Thumbs.db
