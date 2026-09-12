@@ -1,14 +1,20 @@
-# 1. Ignore absolutely everything by default
-*
-*/
+# === Visual Studio & IDEs ===
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# 2. Allow the .gitignore file itself
-!.gitignore
+# === Build and Binaries ===
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+*.pdb
 
-# 3. Allow Solution & Project structure (Required for Visual Studio to open and run)
-!**/*.sln
-!**/*.slnx
-!**/*.csproj
-
-# 4. Allow only the C# source code files
-!**/*.cs
+# === System Files ===
+.DS_Store
+Thumbs.db
