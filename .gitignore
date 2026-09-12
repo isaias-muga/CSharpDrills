@@ -1,20 +1,14 @@
-# === Visual Studio & Cache ===
-.vs/
-.vscode/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
+# 1. Ignore absolutely everything by default
+*
+*/
 
-# === Compilación y Binarios (Obligatorio en C#) ===
-bin/
-obj/
-[Bb]in/
-[Oo]bj/
-*.exe
-*.dll
-*.pdb
+# 2. Allow the .gitignore file itself
+!.gitignore
 
-# === Archivos temporales del sistema ===
-.DS_Store
-Thumbs.db
+# 3. Allow Solution & Project structure (Required for Visual Studio to open and run)
+!**/*.sln
+!**/*.slnx
+!**/*.csproj
+
+# 4. Allow only the C# source code files
+!**/*.cs
