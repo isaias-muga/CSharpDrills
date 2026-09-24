@@ -18,3 +18,9 @@ obj/
 # === System Files ===
 .DS_Store
 Thumbs.db
+TestProject1/TestProject1/UnitTest1.cs
+_xUnit_/_xUnit_/_xUnit_.csproj
+_xUnit_/_xUnit_.slnx
+CalculatorTest/CalculatorTest/UnitTest1.cs
+TestProject1/TestProject1.slnx
+TestProject1/TestProject1/TestProject1.csproj
